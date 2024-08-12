@@ -14,4 +14,10 @@
 #### - Type disk label which not mounted (empty) with :. Examples: c:,t:,b: and etc.
 #### - Done
 
+### Issues
+#### - Question: Arch linux don`t booting
+#### - Answer: Boot to windows and retry win2linux script
+#### - Question: lsblk error
+#### - Just type command lsblk and boot to archinstall
+
 ### Enjoy
