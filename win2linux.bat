@@ -93,10 +93,8 @@ for /f "skip=1 tokens=2 delims= " %%d in ('wmic logicaldisk get name') do (
 call :cont
 
 :searchAndDelete
-set "drive=%1"
-
-for /r "%drive%\" %%f in (winauto.label) do (
-    del "%%f"
+for /f "delims=" %%i in ('where winauto.label') do (
+    del "%%i"
 )
 
 for /f "tokens=2,3" %%a in ('wmic logicaldisk where "DeviceID='C:'" assoc /assocclass:Win32_LogicalDiskToPartition 2^>nul ^| findstr /i "DiskIndex PartitionNumber"') do (
