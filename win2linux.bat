@@ -150,7 +150,7 @@ bcdedit /set {bootmgr} path efi\boot\bootx64.efi
 
 bcdedit /displayorder {bootmgr} /addlast
 
-bcdedit /timeout 10
+bcdedit /timeout 0
 
 echo Done
 
