@@ -13,7 +13,7 @@
 
 ### Instructions for efi
 - Disable any antivirus (Windows defender,avast and etc)
-- Run win2linux.bat with admin rights
+- Run win2linux.bat
 - Done
 
 ### Issues
