@@ -26,5 +26,6 @@
 - Don`t delete C:\temp directory
 - Don`t delete C:\grub\grub2auto.label
 - Don`t create file with path /grub/grub2auto.label (This file need for search where lies C:\ partition)
+- Don`t reset your pc after win2linux installing. Use windows reboot
 
 ### Enjoy
