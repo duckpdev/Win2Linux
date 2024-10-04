@@ -8,10 +8,10 @@
 
 ## Instructions
 
-### Instructions for mbr
-- Mbr is old so there is no mbr
+### Instructions for bios
+- Mbr is old so there is no bios
 
-### Instructions for efi
+### Instructions for uefi
 - Disable any antivirus (Windows defender,avast and etc)
 - Run win2linux.bat
 - Done
